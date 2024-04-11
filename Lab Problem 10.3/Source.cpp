@@ -24,11 +24,8 @@ int main() {
 
 		total_score += score[x];
 		average = total_score / num_students;
-
 	}
 	
-
-
 	cout << "high = " << largest;
 	cout << " low = " << smallest;
 	cout << " average = " << setprecision(3) << average << endl;
